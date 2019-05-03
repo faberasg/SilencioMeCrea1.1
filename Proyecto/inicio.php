@@ -16,7 +16,7 @@ $resultado = mysqli_query($conexion,$sql);
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>El silencio me crea jajajajajaja</title>
+  <title>El silencio me crea</title>
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="icon" href="img/icono.png" type="icono/png" sizes="16x16">
