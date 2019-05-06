@@ -51,7 +51,7 @@ $resultado = mysqli_query($conexion,$sql);
 
 
     <header id="header" class="row">
-    	<img id="logo" class="img col-12 col-sm-7 col-md-7 col-lg-5" src="img/logo.png" >  
+    	<img id="logo" class="img col-12 col-sm-7 col-md-7 col-lg-5 src="img/logo.png" >  
     </header>
 
     <!-------------------------------navegación-------------------------------------------------------------------------------------->
@@ -64,7 +64,7 @@ $resultado = mysqli_query($conexion,$sql);
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <div class="navbar-nav mr-auto ml-auto text-center">
-          <li class="nav-item nav-link active">INICIO </li>
+          <li class="nav-item nav-link active">Silencio </li>
           <li class="nav-item nav-link">GALERÍA</li>
           <li class="nav-item nav-link">INFORMACIÓN</li>
           <li class="nav-item nav-link">CUENTO</li>
