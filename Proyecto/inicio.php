@@ -64,7 +64,7 @@ $resultado = mysqli_query($conexion,$sql);
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <div class="navbar-nav mr-auto ml-auto text-center">
-          <li class="nav-item nav-link active">INICIO </li>
+          <li class="nav-item nav-link active">home</li>
           <li class="nav-item nav-link">GALERÍA</li>
           <li class="nav-item nav-link">INFORMACIÓN</li>
           <li class="nav-item nav-link">CUENTO</li>
