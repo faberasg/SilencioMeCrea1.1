@@ -33,22 +33,7 @@ $resultado = mysqli_query($conexion,$sql);
 <body>
 
 
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Lorem ipsum</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body" >
-        <img src="img/5.png" width="100%">
-        <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-      </div>
-    </div>
-  </div>
-</div>
+  
 
   <div class="container-fluid">
     <!-----------------------------imagen1------------------------------------------------------------------------------------------------>
@@ -172,36 +157,6 @@ echo "<div class='col-12 col-sm-12 col-md-12 col-lg-12'>";
 
 
 <section id='seccion2' class="row">
-<!--<div class='col-12  col-sm-12 col-md-12 col-lg-12' id="video">
-    
-
-<video  controls autoplay loop style="
-    width: 90%;
-    position: relative;
-    left: 6%;
-    top: 3vh;
-    
-"> <source src="video/video.mp4" type="video/mp4"></video>
-  
-</div>
-
-</section>
-<section class="row justify-content-center">
-<nav aria-label="Page navigation example" style="position:relative; top:4vh;">
-<h5 id="titu" style="margin-left:25%;">instructivo</h5>
-  <ul class="pagination justify-content-center">
-  
-    <li class="page-item disabled">
-      <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
-    </li>
-    <li class="page-item "><a class="page-link" video="video.mp4">1</a></li>
-    <li class="page-item"><a class="page-link"  video="proyecto.mp4">2</a></li>
-    <li class="page-item"><a class="page-link" video="instructivo.mp4">3</a></li>
-    <li class="page-item">
-      <a class="page-link" href="#">Siguiente</a>
-    </li>
-  </ul>
-</nav>-->
 
 <div class="slideshow">
 		<ul class="slider">
@@ -308,10 +263,12 @@ echo "<section class='row gale2'  >";
 
         
         echo "<h3>" . $row['titulo'] . "</h3>";
+         echo "<hr>"
 
         ?>
          <br>
         <p><?php echo $row["detalles"];?></p>
+
 
         <br>
 
@@ -338,11 +295,38 @@ echo "<section class='row gale2'  >";
               
 
               </div>
+              <img style="width: 50%; margin-left:18vh;" src="img/logo.png">
 
             </div>
           </div>
         </div>
       </div>
+    </section>
+    <hr style="width:80%;">
+
+    <section class="señas">
+
+     
+
+      <div class="col-12 col-sm-6 col-md-6 col-lg-6 rojo" >
+
+        <h3>Lenguaje de Señas</h3>
+        <hr><br>
+
+        <p>Es una lengua natural de expresión y configuración gesto-espacial y percepción visual, gracias a la cual las personas sordas pueden establecer un canal de comunicación con su entorno social, ya sea conformado por otros individuos sordos o por cualquier persona que conozca la lengua de señas empleada. Mientras que con el lenguaje oral la comunicación se establece en un canal vocal-auditivo, la lengua de señas lo hace por un canal gesto-viso-espacial.
+Su principal característica es que utiliza signos que se realizan con las manos, en combinación con la expresión gestual y corporal.  </p>
+
+
+       
+      </div>
+      <div class="col-12 col-sm-6 col-md-6 col-lg-5">
+  	<video  controls loop style="
+    width: 120%; margin-top:10vh;
+    
+"> <source src="video/señas.mp4" type="video/mp4"></video>
+        
+      </div>
+
     </section>
 
 <footer class="page-footer lighten-3 pt-4">

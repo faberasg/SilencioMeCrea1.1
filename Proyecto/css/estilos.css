@@ -494,6 +494,18 @@ ul,ol{
 	cursor: pointer;
 }
 
+.señas{
+	width: 100%;
+	padding: 40px;
+	 display: flex;
+
+
+}
+
+.rojo{
+	padding: 50px;
+}
+
 
 @media screen and (min-width: 0px){
 	.els{
