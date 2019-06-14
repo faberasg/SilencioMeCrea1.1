@@ -600,7 +600,7 @@ ul,ol{
 	.pagination{
 		position: absolute;
 		top: 105%;
-		left: 90vh;
+		left: 93vh;
 	
 	
 	}
@@ -612,10 +612,10 @@ ul,ol{
 
 	.titulo{
 		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 52vh;
-		left: 0;
+		width: 40%;
+		height: 4%;
+		top: 130vh;
+		left: 29%;
 		padding: 15px 50px;
 	
 		display: flex;

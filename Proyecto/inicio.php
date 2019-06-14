@@ -160,19 +160,7 @@ echo "<div class='col-12 col-sm-12 col-md-12 col-lg-12'>";
 
 <div class="slideshow">
 		<ul class="slider">
-			<li>
-		
-				<video  controls loop style="
-    width: 90%;
-    position: relative;
-    left: 3%;
-    top: 3vh;
-    
-"> <source src="video/video.mp4" type="video/mp4"></video>
-<section class="titulo">
-<h3>Inicio</h3>
-</section>
-			</li>
+	
 			<li>
 				<video  controls loop style="
     width: 90%;
@@ -180,25 +168,11 @@ echo "<div class='col-12 col-sm-12 col-md-12 col-lg-12'>";
     left: 3%;
     top: 3vh;
     
-"> <source src="video/Proyecto.mp4" type="video/mp4"></video>
-<section class="titulo">
-<h3>Primer capitulo</h3>
-</section>
-		
-			</li>
-			<li style="width: 100%;">
-				<video  controls loop style="
-	width: 90%;
-    position: relative;
-    left: 3%;
-    top: 3vh;
-    
-"> <source src="video/instructivo.mp4" type="video/mp4"></video>
-<section class="titulo">
-<h3 class="ter">Segundo Capitulo</h3>
-</section>
-			
-			</li>
+"> <source src="video/Silencio.mp4" type="video/mp4"></video>
+
+      </li>
+      <h3 class="titulo">Primer capitulo</h3>
+
 		</ul>
 
 		<ol class="pagination">
