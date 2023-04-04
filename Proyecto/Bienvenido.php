@@ -56,7 +56,7 @@ $row = mysqli_fetch_array($resultado);
     
 <div class=" bienvenido col-md-9">
 <div>
-<div class="bienve">Bienvenido al administrador
+<div class="bienve">Bienvenido al administrador del sitio web
 <img class="img col-12 col-sm-7 col-md-7 col-lg-5" src="img/logo.png" >  
 </div><br>
 
